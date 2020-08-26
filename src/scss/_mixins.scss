@@ -1,0 +1,22 @@
+@import "variables";
+
+@mixin header_button($color) {
+  display: inline-flex;
+  height: 24px;
+  padding: 3px;
+  cursor: pointer;
+  user-select: none;
+  transition: .35s ease background-color;
+
+  &:hover {
+    background-color: rgba($color, .3);
+  }
+
+  &:active {
+    background-color: rgba($color, .5);
+  }
+
+  i {
+    font-size: 18px;
+  }
+}
