@@ -1,0 +1,28 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "Pure JS Excel App",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freedbrd/excel.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Vadym Trikhleb <vadimtrihleb@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freedbrd/excel/issues"
+  },
+  "homepage": "https://github.com/freedbrd/excel#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
