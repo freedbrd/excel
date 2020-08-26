@@ -1,8 +1,8 @@
-console.log('module js');
+console.log('module js123');
 
 
 async function start() {
   await Promise.resolve()
 }
 
-start();
+start().then(r => console.log(r));
