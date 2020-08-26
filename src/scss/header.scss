@@ -15,7 +15,7 @@
     border: 2px solid transparent;
     border-radius: 2px;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 20px;
     outline: none;
     min-width: 10px;
     transition: .5s ease border-color;
@@ -30,6 +30,6 @@
   }
 
   .button {
-    @include header_button($gray-color)
+    @include button($gray-color)
   }
 }
