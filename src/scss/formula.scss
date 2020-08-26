@@ -1,1 +1,22 @@
-.excel__formula {}
+@import "variables";
+
+.excel__formula {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid $gray-color;
+  min-width: $info-cell-width;
+  padding: 0 10px;
+  .info {
+    font-size: 22px;
+    padding-right: 10px;
+  }
+
+  .input {
+    width: 100%;
+    outline: none;
+    height: 100%;
+    font-size: 18px;
+    border-left: 1px solid $gray-color;
+    padding: 3px 0 3px 10px;
+  }
+}
